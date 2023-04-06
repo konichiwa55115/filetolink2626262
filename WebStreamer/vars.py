@@ -7,15 +7,15 @@ load_dotenv()
 
 
 class Var(object):
-    API_ID = int(getenv('API_ID'))
-    API_HASH = str(getenv('API_HASH'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN'))
+    API_ID = int(17983098)
+    API_HASH = str("ee28199396e0925f1f44d945ac174f64")
+    BOT_TOKEN = str("5848326557:AAFWQc5chBlpdqNvjJHyUTTOksahsV7zMVg")
     SESSION_NAME = str(getenv('SESSION_NAME', 'Moksh_b658'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL'))
     PORT = int(getenv('PORT', 8080))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+    BIND_ADRESS = str(getenv('https://8080-cs-3b90c593-edc4-48ef-9fa4-60ca78365fe3.cs-europe-west1-xedi.cloudshell.dev/', '0.0.0.0'))
     OWNER_ID = int(getenv('OWNER_ID', '797848243'))
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
