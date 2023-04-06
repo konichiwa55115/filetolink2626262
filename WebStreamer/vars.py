@@ -13,7 +13,7 @@ class Var(object):
     SESSION_NAME = str(getenv('SESSION_NAME', 'Moksh_b658'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL'))
+    BIN_CHANNEL = int(-1001230414925)
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('https://8080-cs-3b90c593-edc4-48ef-9fa4-60ca78365fe3.cs-europe-west1-xedi.cloudshell.dev/', '0.0.0.0'))
     OWNER_ID = int(getenv('OWNER_ID', '797848243'))
